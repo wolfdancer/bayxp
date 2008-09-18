@@ -1,0 +1,92 @@
+hr {color: #000000}
+body {
+  color:#000000;
+  background: #ffffff;
+  font-family:"Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+  margin:0px;
+  padding:0px;}
+#title {
+    margin:0px 0px 0px 0px;
+    padding:6px 3px 3px 9px;
+    color:#FFFFFF;
+    background:#CCCCFF;
+    font-size:150%;
+    font-weight: bold;
+}
+#title a {
+    text-decoration:none;
+    font-family:Bookman Old Style;
+    font-size:150%;
+    color:#333366;
+}
+#title a:hover {
+    font-size:150%;
+    font-family:Bookman Old Style;
+    color:#663366;
+}
+#title img {
+  float:right;
+}
+
+#menu {
+  margin:0px 0px 0px 0px;
+  padding:6px 3px 3px 9px;
+  color:#FFFFFF;
+  background:#333366;
+  font-size:100%;
+  font_weight:bold;
+}
+#menu a {
+    text-decoration:none;
+    padding:6px 9px 3px 9px;
+    font-size:150%;
+    font-family:Bookman Old Style;
+    color:#FFFFFF;
+}
+#menu a:hover {
+    font-size:150%;
+    background:#BBBBBB;
+    color:#333366;
+    font-family:Bookman Old Style;
+}
+.sectiontitle{text-align:right;}
+.contenttitle{
+  font-weight:bold;
+  text-align:right;
+  font-size:100%;
+}
+
+.sectioncontent,h4{font-weight:bold;color:#000000;margin:0;}
+
+.sponsor {
+  float:right;
+}
+.main,h4{font-weight:bold;color:#000000;margin:0;}
+
+
+img{border:0px;}
+body{height:100%; ont-size:100%;}
+html{height:100%;background:#CCCCFF;}
+#container{width:100%;height:100%;background:#EEEEFF;}
+#banner{width:1000px;height:auto;background: #FFFFFF; repeat-y;}
+#main{width:996px;overflow:hidden;}
+#ea{float:left;width:157px;}
+#mainbg{
+  padding:0px 0px 0px 50px;
+  width:838px;
+  float:left;
+  clear:right;
+  min-height: 1000px;
+  height:auto !important;
+  height:410px; 
+  font-size:100%
+}
+#content2{margin-left:5px;margin-right:5px;width:828px;min-height: 450px;height:auto !important;height:410px;}
+#bottom{width:1000px;height:25px;display:block;background: #333366;}
+#footer{margin-left:5px;margin-right:5px;width:828px;}
+
+#ban{width:1000px;height:188px;border:0px;}
+#ima{width:17px;height:51px;border:0px;}
+#srch{width:1000px;height:26px;}
+#search{padding:4px;float:right;clear:right;}
+

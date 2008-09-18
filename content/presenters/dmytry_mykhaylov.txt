@@ -1,0 +1,7 @@
+h1. Dmytry Mykhaylov
+
+Dmytry Mykhaylov started as a software engineer in late 80's in the USSR and have been working in the USA since 2000. Right now Dmytry is a project manager with 6+ years of experience in implementation of Geographically Distributed Projects (GDP). He specializes on startups and small to middle size projects. Dmytry believes that agile approach in project's organization on both ends of a distributed team is a key to success and profitability of a GDP.
+
+h1. Presentations
+
+2008/07 "Agile approach in geographically distributed projects":../archive/2008.html#200807

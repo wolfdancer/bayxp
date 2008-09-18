@@ -1,0 +1,33 @@
+See meetings in other years, see "All Meetings":all.html
+
+h3. Agile Release Planning for Maximum Value
+
+December 2007 by James Shore
+
+h3. Team planning game
+
+November 2007 by Steve Bockman
+
+h3. Agile development tracking tool: XPlanner and Pivotal Tracker
+
+August 2007 by Rod McChesney and Will Chan
+
+h3. To Catch a Bug, You Have to Think Like a Bug
+
+July 2007 by Bob Evans
+
+h3. Code Kata with BDD using jBehave (Session I), and using rSpec (Session II)
+
+April and May 2007 by Shane Duan and Taru Jain
+
+h3. Agile Planning and Tracking
+
+March 2007 by Mike Cohn
+
+h3. Continuous Integration: Benefits, Challenges, and Best Practices
+
+February 2007 by Slava Imeshev
+
+h3. The New Software Engineering, for the 21st Century
+
+January 2007 by Alistair Cockburn

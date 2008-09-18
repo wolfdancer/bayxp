@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:template="http://buildmaster.rubyforge.org/xtemplate/1.0">
+<head>
+<title>Home</title>
+</head>
+<body>
+        <div align="left" id="content2" style="background: #ffffff;padding: 1px 0px 5px 0px;">
+
+          <p/>
+          <p/>
+<div align="center"><table border="0" cellpadding="10" cellspacing="0" style="width:715px;">
+<tr valign="top"><td style="width:27%;"><br/>
+
+</td><td style="width:73%;">
+<p><span class="contenttitle">BayXP July Meeting</span></p>
+</td></tr>
+<tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Location:</p>
+</td><td style="width:73%;">
+<p><a href="http://genius.com/us/">genius</a></p>
+<p>1400 Fashion Island Blvd., Suite 500</p>
+<p>San Mateo, CA 94404</p>
+<p>Attendees will likely need to sign in on the 1st Floor after 6pm.</p>
+<p>Jean-Carlos Ortiz, the ScrumMaster (jortiz at genius dot com) will be your primary
+contact for the meeting.</p>
+</td></tr>
+<tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Date:</p>
+</td><td style="width:73%;">
+
+<p>Wednesday, August 27, 2008</p>
+</td></tr><tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Topic:</p>
+</td><td style="width:73%;">
+<p><span class="contenttitle">Best practices and tools for web testing</span></p>
+</td></tr><tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Doors open</p>
+<p class="sectiontitle">Meet, Greet and Eat</p>
+<p class="sectiontitle">Presentation</p>
+<p class="sectiontitle">Drafting</p>
+<p class="sectiontitle">Discussion</p>
+</td><td style="width:73%;">
+
+<p>6:30 pm</p>
+<p>6:30 - 7:00</p>
+<p>7:00 - 8:30</p>
+<p>8:30 (for Mike Cohn's class <a href="http://www.mountaingoatsoftware.com/training/83-agile-estimating-and-planning">Agile Estimating and Plannig</a>)</p>
+<p>8:30 - 9:00</p>
+</td></tr><tr valign="top"><td style="width:73%;" colspan="2">
+<hr style="background:#000000;border:0;color:#000000;height:2px;" width="90%" align="right"/></td></tr><tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Meeting Abstract:</p>
+</td><td style="width:73%;">
+<p> The purpose of this talk is to share my field experience in
+establishing web acceptance test suites with high return on investment
+(ROI) for web application. My ThoughtWorks team successfully
+transformed a 3 hours web testing suite that despite high maintenance
+efforts was always red,  into a passing sub-20 minutes build that
+provides quick and accurate feedback while requiring minimal
+maintenance. This session covers best practices and tools that you can
+put in place to achieve your own success story.</p>
+
+<p>In my experience, attaining high value from traditional acceptance web
+testing is hard to accomplish mainly because:
+<ul>
+  <li>Tests are brittle: In other words they keep failing and require a
+lot of maintenance over the course of the
+iterations -- even when your application has no new defects!</li>
+  <li>Testing is slow: Web acceptance testing involves a full
+application stack and a flurry of network chats between
+   browsers, web servers, databases and other processes. Not
+surprisingly this comes with a lot of performance overhead
+   and the environment requires a non-trivial set up. Consequently a
+web acceptance build typically takes hours to run
+and accounts for a tremendous delay in development feedback.</li>
+  <li>It is difficult to assess the exact impact of current failures in
+terms of actual application functionality:
+   A single UI change in a "hub-page" (say the login page) can cause
+most of the test suite to fail while from the
+user's perspective, the application is working just fine.</li>
+  <li>Some application states are hard, if not impossible, to reach
+solely from the UI. The traditional approach here
+   has been either to avoid testing these cases or to write tests
+that rely on large, complex and well-known data
+sets, which become increasingly harder to maintain and comprehend.</li>
+</ul>
+</p>
+<p>
+I will discuss how to address these issues by leveraging tools such as
+Selenium Grid (http://openqa.org/selenium-grid),
+DeepTest (http://deep-test.rubyforge.org) while implementing
+innovative best practices such as:
+<ul>
+  <li>Keeping the build blazing fast by leveraging cheap hardware and
+  aggressively parallelizing test runs.</li>
+  <li>Implementing aggressive test isolation.</li>
+  <li>Putting the Web acceptance tests in total control of the application state.</li>
+  <li>Keeping the tests razor sharp.</li>
+</ul>
+</p>
+  </td></tr><tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Presenter Bio:</p>
+
+</td><td style="width:73%;">
+    <p>
+    <a href="http://ph7spot.com/">Philippe Hanrigou</a> has over ten years of experience developing enterprise
+      software and web applications. As a software engineer and 
+      <a href="http://thoughtworks.com">ThoughtWorks</a>
+
+      consultant, he focuses on designing enterprise software ¡ª understanding
+      what makes a good design and implementing practices that encourage it. For
+      the last 2 years he has enthusiastically embraced Ruby and used it to
+      deliver large enterprise systems.
+    </p><p>      
+      Philippe is the author of 
+      <a href="/publications/troubleshooting_ruby_processes"><q>Troubleshooting Ruby
+      Processes</q></a>,
+      an Addison-Wesley Ruby Professional Series shortcut, that introduces key
+      system diagnostic tools in the context of Ruby development. Philippe is
+      also the principal developer and author of 
+      <a href="http://selenium-grid.openqa.org">Selenium Grid</a>, 
+      a tool that transparently
+      distribute your web testing infrastructure so that you can run Selenium
+      tests in parallel.
+    </p><p>
+      Philippe continually seeks ways to improve the state of the software craft
+      and has found agile methodologies to be especially efficient and rewarding
+      for developing enterprise software. He spends much of his time sharpening
+      his expertise in this area and advocating agile methodologies.
+    </p>
+
+</td></tr><tr valign="top"><td style="width:73%;" colspan="2">
+<hr style="background:#000000;border:0;color:#000000;height:2px;" width="90%" align="right"/></td></tr><tr valign="top"><td style="width:27%;">
+<p class="sectiontitle">Sponsor Links:</p>
+</td><td style="width:73%;">
+<p><span class="sectioncontent"><!-- title --></span></p>
+<p><!-- name --></p>
+<p><!-- date --></p>
+<br/>
+
+</td></tr><tr valign="top"><td style="width:27%;"><br/>
+</td><td style="width:73%;"><br/>
+</td></tr></table>
+</div>
+
+<!--footer--><br/><!--/footer--><!--/page--></div>
+			<div id="sponsor"><!--%PAGEFOOTER%--></div>
+</body></html>
+
+

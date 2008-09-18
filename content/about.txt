@@ -1,0 +1,18 @@
+-----------
+About
+----------
+h1. About BayXP
+
+BayXP is the lean and agile software community in the San Francisco Bay Area.
+
+h1. Meetings
+
+BayXP meetings are normally scheduled on the last Wednesday of each month.  The locations and dates are subject to change based on the availabilities of the speakers and sponsors.
+
+h1. Contact
+
+Please send all your inquiries to our "Yahoo! group":http://tech.groups.yahoo.com/group/bayxp/post
+
+h1. Web Site
+
+The content of the website is hosted on "Google Code":http://code.google.com/p/bayxp/.  It is built using "BuildMaster":http://buildmaster.rubyforge.org

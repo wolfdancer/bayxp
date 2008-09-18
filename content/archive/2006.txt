@@ -1,0 +1,22 @@
+For meetings in other years, see "ALL Meetings":all.html
+
+h3. The Role of Leadership in Software Development
+
+December 2006 by Mary Poppendieck
+
+h3. rSpec and jBehave,
+
+November 2006 by Shane Duan
+
+h3. Code Kata in the Coding Dojo, a group TDD exercise
+
+September 2006 by Taru Jain & Justin Sampson
+
+h3. Agile 2006 panel
+
+August 2006 by William Pietri, Taru Jain, Steve Bockman
+
+h3. The XP Game
+
+July 2006 by Justin Sampson
+

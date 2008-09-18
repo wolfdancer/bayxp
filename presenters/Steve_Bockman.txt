@@ -1,0 +1,11 @@
+Steve Bockman is an independent software developer who began his career in
+1977 in a utility position, installing software packages for a manufacturer
+of business computers. Since then he has worked in the fields of speech
+recognition, terrain analysis, computer graphics, desktop publishing,
+industrial automation and web applications.<br/>
+
+Steve's first exposure to anything Agile occurred around 2000, when a
+co-worker suggested that they try pair programming. He liked what he saw,
+but didn't get involved again until 2005, while participating in a
+development effort in which changing requirements were part of the ground
+rules. He has been happily exploring Agile techniques ever since.

@@ -1,0 +1,16 @@
+For meetings in previous years, see "all meetings":all.html
+
+h3. Agile approach in geographically distributed projects
+<a name="200807">&nbsp;</a>
+July 30th, 2008 by "Dmytry Mykhaylov":../presenters/dmytry_mykhaylov.html
+
+The presenter would share his experience about ~30 projects for ~10 companies which he has accomplished with different level of success but where remote (aka "off-shore") engineering resources been used. Similarities among projects, executive "patterns" and "anti-patterns" and "how agility may help" represent the core of the presentation.
+
+h3. Pragmatic Unit Testing in C# 2nd edition
+
+March 2008 by Matt Hargett
+
+h3. ParaBuilder
+
+January 2008 by Slava Imeshev
+

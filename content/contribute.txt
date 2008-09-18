@@ -1,0 +1,36 @@
+---------------
+Contribute
+--------------
+
+h1. Sponsors
+
+You can provide support to BayXP group by:
+
+* Providing a space for our monthly meeting.  We are cycling through the short list we have now and would like to get more companies involved.
+* Sponsoring food and drinks.
+* Send your proposals to the group
+
+h1. Speakers
+
+You can share your experiences and thoughts with everyone in the team.  Please send your proposal to the mailing list and group organizer will get in touch with you for details.
+
+h1. Sponsor Roll
+
+The following are the BayXP sponsors, ordered by the most recent activities.
+
+table{border:1px solid black}.
+|*Name*|"Mike Cohn":http://www.mountaingoatsoftware.com June 2008|
+|^.*Description*|Provided one free pass for each of the classes in San Jose ("details here":http://www.mountaingoatsoftware.com/san-jose), and three copies each of the following books: "Agile Estimating and Planning", "User Stories Applied"|
+{background:#ddd}.|\2.<hr/>|
+|*Name*|"Cacheonix Systems":http://www.cacheonix.com/|
+|^.*Description*|Cacheonix Systems is a software company developing technology for
+distributed caching and enterprise data grid.
+ Cacheonix provided food for the "meeting in July 2008":archive/2008.html#200807|
+{background:#ddd}.|\2.<hr/>|
+|*Name*|"eGain":http://www.egain.com/index.asp July 2008|
+|^.*Description*|Provided location for "meeting in July 2008":archive/2008.html#200807|
+{background:#ddd}.|\2.<hr/>|
+|*Name*|"REARDEN COMMERCE":http://www.reardencommerce.com/|
+|^.*Description*|Provided location and food for several meetings in "2008":archive/2008.html|
+
+
