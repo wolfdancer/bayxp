@@ -23,9 +23,7 @@ table{border:1px solid black}.
 |^.*Description*|Provided one free pass for each of the classes in San Jose ("details here":http://www.mountaingoatsoftware.com/san-jose), and three copies each of the following books: "Agile Estimating and Planning", "User Stories Applied"|
 {background:#ddd}.|\2.<hr/>|
 |*Name*|"Cacheonix Systems":http://www.cacheonix.com/|
-|^.*Description*|Cacheonix Systems is a software company developing technology for
-distributed caching and enterprise data grid.
- Cacheonix provided food for the "meeting in July 2008":archive/2008.html#200807|
+|^.*Description*|Cacheonix Systems is a software company developing technology for distributed caching and enterprise data grid.  Cacheonix provided food for the "meeting in July 2008":archive/2008.html#200807|
 {background:#ddd}.|\2.<hr/>|
 |*Name*|"eGain":http://www.egain.com/index.asp July 2008|
 |^.*Description*|Provided location for "meeting in July 2008":archive/2008.html#200807|

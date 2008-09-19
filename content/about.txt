@@ -3,7 +3,7 @@ About
 ----------
 h1. About BayXP
 
-BayXP is the lean and agile software community in the San Francisco Bay Area.
+BayXP is the lean and agile software community in the San Francisco Bay Area focusing on the software development practices that supports agile methodology like eXtremeProgramming, Crystal and SCRUM.
 
 h1. Meetings
 
@@ -15,4 +15,4 @@ Please send all your inquiries to our "Yahoo! group":http://tech.groups.yahoo.co
 
 h1. Web Site
 
-The content of the website is hosted on "Google Code":http://code.google.com/p/bayxp/.  It is built using "BuildMaster":http://buildmaster.rubyforge.org
+The content of the website and code used during the meetings are hosted on "Github":http://github.com/wolfdancer/bayxp/tree/master.  It is built using "BuildMaster":http://buildmaster.rubyforge.org

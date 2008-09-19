@@ -1,7 +1,26 @@
 For meetings in previous years, see "all meetings":all.html
 
-h3. Agile approach in geographically distributed projects
-<a name="200807">&nbsp;</a>
+h3. Best practices and tools for web testing <a name="200808">&nbsp;</a>
+
+August 27th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
+
+The purpose of this talk is to share my field experience in establishing web acceptance test suites with high return on investment (ROI) for web application. My ThoughtWorks team successfully transformed a 3 hours web testing suite that despite high maintenance efforts was always red, into a passing sub-20 minutes build that provides quick and accurate feedback while requiring minimal maintenance. This session covers best practices and tools that you can put in place to achieve your own success story.
+
+In my experience, attaining high value from traditional acceptance web testing is hard to accomplish mainly because:
+* Tests are brittle: In other words they keep failing and require a lot of maintenance over the course of the iterations -- even when your application has no new defects!
+* Testing is slow: Web acceptance testing involves a full application stack and a flurry of network chats between browsers, web servers, databases and other processes. Not surprisingly this comes with a lot of performance overhead and the environment requires a non-trivial set up. Consequently a web acceptance build typically takes hours to run and accounts for a tremendous delay in development feedback.
+* It is difficult to assess the exact impact of current failures in terms of actual application functionality: A single UI change in a "hub-page" (say the login page) can cause most of the test suite to fail while from the user's perspective, the application is working just fine.
+* Some application states are hard, if not impossible, to reach solely from the UI. The traditional approach here has been either to avoid testing these cases or to write tests that rely on large, complex and well-known data sets, which become increasingly harder to maintain and comprehend.
+
+I will discuss how to address these issues by leveraging tools such as Selenium Grid (http://openqa.org/selenium-grid), DeepTest (http://deep-test.rubyforge.org) while implementing innovative best practices such as:
+* Keeping the build blazing fast by leveraging cheap hardware and aggressively parallelizing test runs.
+* Implementing aggressive test isolation.
+* Putting the Web acceptance tests in total control of the application state.
+* Keeping the tests razor sharp.
+
+
+h3. Agile approach in geographically distributed projects <a name="200807">&nbsp;</a>
+
 July 30th, 2008 by "Dmytry Mykhaylov":../presenters/dmytry_mykhaylov.html
 
 The presenter would share his experience about ~30 projects for ~10 companies which he has accomplished with different level of success but where remote (aka "off-shore") engineering resources been used. Similarities among projects, executive "patterns" and "anti-patterns" and "how agility may help" represent the core of the presentation.
