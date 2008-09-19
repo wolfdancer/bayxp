@@ -13,6 +13,8 @@ h1. Contact
 
 Please send all your inquiries to our "Yahoo! group":http://tech.groups.yahoo.com/group/bayxp/post
 
+You can also join the online chat at "Campfire":http://bayxp.campfirenow.com/3baa4
+
 h1. Web Site
 
 The content of the website and code used during the meetings are hosted on "Github":http://github.com/wolfdancer/bayxp/tree/master.  It is built using "BuildMaster":http://buildmaster.rubyforge.org
