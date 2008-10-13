@@ -1,3 +1,19 @@
+=begin
+Rakefile used to generate BayXP website as well as uploading it. You will 
+need install 'BuildMaster' gem by typing 'gem install BuildMaster'
+
+The default target will rebuild the website and upload the content
+
+The 'build' target will generate the website to output directory. The 'server' target will launch the server locally at port 2000. In this way, 
+you can use the browser to see the result of your change on the source content immediately through refresh.
+
+In order to make ftp work, you will need to create a file 'account.rb' 
+under the current directory that contains something like the following:
+
+USERNAME='username'
+PASSWORD='password'
+
+=end
 $:.unshift File.dirname(__FILE__)
 
 require 'buildmaster/site'

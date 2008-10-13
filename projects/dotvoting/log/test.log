@@ -1,0 +1,854 @@
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 19:58:31) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 02:58:31', '2008-09-25 02:58:31')[0m
+Redirected to http://test.host/games/996332878
+Completed in 0.01500 (66 reqs/sec) | DB: 0.06200 (413%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 19:58:31) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.01600 (62 reqs/sec) | DB: 0.06300 (393%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 19:58:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.016000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.07800 (487%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 19:58:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 19:58:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 19:58:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 19:58:32) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.016000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `created_at`) VALUES('2008-09-25 03:02:57', '2008-09-25 03:02:57')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 20:09:35) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 03:09:35', '2008-09-25 03:09:35')[0m
+Redirected to http://test.host/games/996332878
+Completed in 0.01500 (66 reqs/sec) | DB: 0.07800 (520%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 20:09:35) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.01600 (62 reqs/sec) | DB: 0.04700 (293%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.109000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 20:09:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.10900 (109000%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 20:09:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;35;1mGame Load (0.015000)[0m   [0mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://test.host/games]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 20:09:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/new]
+  [4;36;1mSQL (0.016000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 20:09:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (16000%) | 200 OK [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 20:09:35) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mDROP TABLE `games`[0m
+  [4;35;1mSQL (0.062000)[0m   [0mDELETE FROM schema_migrations WHERE version = '20080925023253'[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mdescribe `votes`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `votes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:16:52', 'foo', '2008-09-25 03:16:52')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 1) [0m
+  [4;36;1mSQL (0.046000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 20:17:00) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 03:17:00', '2008-09-25 03:17:00')[0m
+Redirected to http://test.host/games/996332878
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.07800 (78000%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.046000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 20:17:00) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.04600 (46000%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 20:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.016000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06300 (393%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 20:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 20:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.016000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 20:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (15999%) | 200 OK [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 20:17:00) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.01500 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:18:43', 'foo', '2008-09-25 03:18:43')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 2) [0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:22:24', 'foo', '2008-09-25 03:22:24')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 3) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:22:24', NULL, '2008-09-25 03:22:24')[0m
+  [4;35;1mSQL (0.015000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:24:54', 'foo', '2008-09-25 03:24:54')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 5) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:24:54', NULL, '2008-09-25 03:24:54')[0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:29:14', 'foo', '2008-09-25 03:29:14')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 1) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:29:14', NULL, '2008-09-25 03:29:14')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 2) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 20:29:23) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 03:29:23', '2008-09-25 03:29:23')[0m
+Redirected to http://test.host/games/996332878
+Completed in 0.01500 (66 reqs/sec) | DB: 0.07800 (519%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 20:29:23) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.04700 (46999%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 20:29:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.06200 (387%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 20:29:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 20:29:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 20:29:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 20:29:23) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:29:41', 'foo', '2008-09-25 03:29:41')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 3) [0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:29:41', NULL, '2008-09-25 03:29:41')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 4) [0m
+  [4;36;1mSQL (0.032000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:42:33', NULL, '2008-09-25 03:42:33')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:42:33', '2008-09-25 03:42:33')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:42:33', '2008-09-25 03:42:33')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:42:33', 'foo', '2008-09-25 03:42:33')[0m
+  [4;36;1mVote Load (0.000000)[0m   [0;1mSELECT * FROM `votes` WHERE (`votes`.`id` = 6) [0m
+  [4;35;1mSQL (0.063000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:42:33', NULL, '2008-09-25 03:42:33')[0m
+  [4;36;1mRankedGame Load (0.000000)[0m   [0;1mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 7) [0m
+  [4;35;1mSQL (0.093000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:43:11', NULL, '2008-09-25 03:43:11')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:43:11', '2008-09-25 03:43:11')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:43:11', '2008-09-25 03:43:11')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:43:11', 'foo', '2008-09-25 03:43:11')[0m
+  [4;36;1mVote Load (0.016000)[0m   [0;1mSELECT * FROM `votes` WHERE (`votes`.`id` = 9) [0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:43:11', NULL, '2008-09-25 03:43:11')[0m
+  [4;36;1mRankedGame Load (0.000000)[0m   [0;1mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 10) [0m
+  [4;35;1mSQL (0.046000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankedGame Create (0.000000)[0m   [0mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:45:21', NULL, NULL, NULL, '2008-09-25 03:45:21')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('name', '2008-09-25 03:45:21', '2008-09-25 03:45:21')[0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('name', '2008-09-25 03:46:53', '2008-09-25 03:46:53')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:46:53', NULL, 996332884, NULL, '2008-09-25 03:46:53')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('name', '2008-09-25 03:47:59', '2008-09-25 03:47:59')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:47:59', NULL, 996332885, NULL, '2008-09-25 03:47:59')[0m
+  [4;35;1mSQL (0.094000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('name', '2008-09-25 03:48:04', '2008-09-25 03:48:04')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:48:04', NULL, 996332886, NULL, '2008-09-25 03:48:04')[0m
+  [4;35;1mSQL (0.078000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.015000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:48:26', NULL, '2008-09-25 03:48:26')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:48:26', '2008-09-25 03:48:26')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:48:26', '2008-09-25 03:48:26')[0m
+  [4;35;1mSQL (0.063000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:48:26', 'foo', '2008-09-25 03:48:26')[0m
+  [4;36;1mVote Load (0.000000)[0m   [0;1mSELECT * FROM `votes` WHERE (`votes`.`id` = 12) [0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Create (0.000000)[0m   [0mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:48:26', NULL, '2008-09-25 03:48:26')[0m
+  [4;36;1mRankedGame Load (0.000000)[0m   [0;1mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 13) [0m
+  [4;35;1mSQL (0.016000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:49:07', NULL, '2008-09-25 03:49:07')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:49:07', '2008-09-25 03:49:07')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:49:07', '2008-09-25 03:49:07')[0m
+  [4;35;1mRankedGame Create (0.000000)[0m   [0mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:49:07', 4, 996332889, 14, '2008-09-25 03:49:07')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:49:07', 1, 996332890, 14, '2008-09-25 03:49:07')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 14) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:49:07', 'foo', '2008-09-25 03:49:07')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 15) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:49:07', NULL, '2008-09-25 03:49:07')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 16) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:50:10', NULL, '2008-09-25 03:50:10')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:50:10', '2008-09-25 03:50:10')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:50:10', '2008-09-25 03:50:10')[0m
+  [4;35;1mRankedGame Create (0.000000)[0m   [0mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:50:10', 4, 996332891, 17, '2008-09-25 03:50:10')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:50:10', 1, 996332892, 17, '2008-09-25 03:50:10')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 17) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:50:10', 'foo', '2008-09-25 03:50:10')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 18) [0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:50:10', NULL, '2008-09-25 03:50:10')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 19) [0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.016000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:51:12', NULL, '2008-09-25 03:51:12')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:51:12', '2008-09-25 03:51:12')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:51:12', '2008-09-25 03:51:12')[0m
+  [4;35;1mRankedGame Create (0.000000)[0m   [0mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:51:12', 4, 996332893, 20, '2008-09-25 03:51:12')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:51:12', 1, 996332894, 20, '2008-09-25 03:51:12')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 20) [0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 996332893) [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 996332894) [0m
+  [4;36;1mSQL (0.078000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:51:12', 'foo', '2008-09-25 03:51:12')[0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 21) [0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:51:12', NULL, '2008-09-25 03:51:12')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 22) [0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mBEGIN[0m
+  [4;35;1mVote Columns (0.000000)[0m   [0mSHOW FIELDS FROM `votes`[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:52:20', NULL, '2008-09-25 03:52:20')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 03:52:20', '2008-09-25 03:52:20')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('super mario 64', '2008-09-25 03:52:20', '2008-09-25 03:52:20')[0m
+  [4;35;1mRankedGame Create (0.000000)[0m   [0mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:52:20', 4, 996332895, 23, '2008-09-25 03:52:20')[0m
+  [4;36;1mRankedGame Create (0.000000)[0m   [0;1mINSERT INTO `ranked_games` (`updated_at`, `rank`, `game_id`, `vote_id`, `created_at`) VALUES('2008-09-25 03:52:20', 1, 996332896, 23, '2008-09-25 03:52:20')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 23) [0m
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 996332895) [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 996332896) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:52:20', 'foo', '2008-09-25 03:52:20')[0m
+  [4;35;1mVote Load (0.015000)[0m   [0mSELECT * FROM `votes` WHERE (`votes`.`id` = 24) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO `votes` (`updated_at`, `username`, `created_at`) VALUES('2008-09-25 03:52:20', NULL, '2008-09-25 03:52:20')[0m
+  [4;35;1mRankedGame Load (0.000000)[0m   [0mSELECT * FROM `ranked_games` WHERE (`ranked_games`.vote_id = 25) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 21:02:36) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 04:02:36', '2008-09-25 04:02:36')[0m
+Redirected to http://test.host/games/996332897
+Completed in 0.01500 (66 reqs/sec) | DB: 0.09400 (626%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 21:02:36) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.04700 (47000%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 21:02:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06200 (62000%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('mario', '2008-09-25 04:02:37', '2008-09-25 04:02:37')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 04:02:37', '2008-09-25 04:02:37')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('guitar', '2008-09-25 04:02:37', '2008-09-25 04:02:37')[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 21:02:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games]
+  [4;35;1mSQL (0.063000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 21:02:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.06300 (420%) | 200 OK [http://test.host/games/new]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 21:02:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/953125641]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 21:02:37) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 21:02:58) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 04:02:58', '2008-09-25 04:02:58')[0m
+Redirected to http://test.host/games/996332901
+Completed in 0.01500 (66 reqs/sec) | DB: 0.09400 (626%) | 302 Found [http://test.host/games?]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mGame Load (0.016000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#destroy (for 0.0.0.0 at 2008-09-24 21:02:59) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+  [4;35;1mGame Destroy (0.000000)[0m   [0m DELETE FROM `games`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/games
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.06300 (62999%) | 302 Found [http://test.host/games/953125641]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#edit (for 0.0.0.0 at 2008-09-24 21:02:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/edit
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06200 (62000%) | 200 OK [http://test.host/games/953125641/edit]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('mario', '2008-09-25 04:02:59', '2008-09-25 04:02:59')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 04:02:59', '2008-09-25 04:02:59')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('guitar', '2008-09-25 04:02:59', '2008-09-25 04:02:59')[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 21:02:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games]
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 21:02:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.04700 (293%) | 200 OK [http://test.host/games/new]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#show (for 0.0.0.0 at 2008-09-24 21:02:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Rendering template within layouts/games
+Rendering games/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/games/953125641]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+
+
+Processing GamesController#update (for 0.0.0.0 at 2008-09-24 21:02:59) [PUT]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"games"}
+  [4;36;1mGame Load (0.000000)[0m   [0;1mSELECT * FROM `games` WHERE (`games`.`id` = 953125641) [0m
+Redirected to http://test.host/games/953125641
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/games/953125641?]
+  [4;35;1mSQL (0.000000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mGame Columns (0.000000)[0m   [0mSHOW FIELDS FROM `games`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+
+
+Processing GamesController#create (for 0.0.0.0 at 2008-09-24 21:05:10) [POST]
+  Session ID: 
+  Parameters: {"game"=>{}, "action"=>"create", "controller"=>"games"}
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES(NULL, '2008-09-25 04:05:10', '2008-09-25 04:05:10')[0m
+Redirected to http://test.host/games/996332905
+Completed in 0.01600 (62 reqs/sec) | DB: 0.07800 (487%) | 302 Found [http://test.host/games?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM `games` [0m
+  [4;35;1mSQL (0.078000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM `games` [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('mario', '2008-09-25 04:05:10', '2008-09-25 04:05:10')[0m
+  [4;35;1mGame Create (0.000000)[0m   [0mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('zelda', '2008-09-25 04:05:10', '2008-09-25 04:05:10')[0m
+  [4;36;1mGame Create (0.000000)[0m   [0;1mINSERT INTO `games` (`name`, `updated_at`, `created_at`) VALUES('guitar', '2008-09-25 04:05:10', '2008-09-25 04:05:10')[0m
+
+
+Processing GamesController#index (for 0.0.0.0 at 2008-09-24 21:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"games"}
+  [4;35;1mGame Load (0.000000)[0m   [0mSELECT * FROM `games` [0m
+Rendering template within layouts/games
+Rendering games/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.07800 (487%) | 200 OK [http://test.host/games]
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+
+
+Processing GamesController#new (for 0.0.0.0 at 2008-09-24 21:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"games"}
+Rendering template within layouts/games
+Rendering games/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.04700 (293%) | 200 OK [http://test.host/games/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
