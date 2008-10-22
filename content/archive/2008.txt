@@ -1,5 +1,22 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. TDD+RoR Lab Building a DotVoting System <a name="200809">&nbsp;</a>
+
+September 24th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
+
+We are going to build a dot-voting system on RoR using Test-Driven Development. Please bring your laptop to the meeting.
+
+Please note that people will save themselves time and headaches by bringing a non-windows laptop if they can ;-) RoR works better on Unix platforms (OS X, Linux, BSD, etc)
+
+You should have the following program installed on your computer:
+
+    * "Ruby":http://www.ruby-lang.org/en/
+    * "Ruby on Rails":http://www.rubyonrails.org/
+    * a Ruby IDE like "IntelliJ IDEA":http://www.jetbrains.com/idea/index.html with "Ruby Plugin":http://plugins.intellij.net/plugin/?id=1293, "Eclipse":http://www.eclipse.org/ with "RDT":http://rubyeclipse.sourceforge.net/, or "textmate":http://macromates.com/ on Mac.
+    * "MySQL":http://www.mysql.com/
+    * "Git":http://git.or.cz/
+
+
 h3. Best practices and tools for web testing <a name="200808">&nbsp;</a>
 
 August 27th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html

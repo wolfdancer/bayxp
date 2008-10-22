@@ -8,5 +8,5 @@ Philippe continually seeks ways to improve the state of the software craft and h
 
 h1. Presentations
 
-2008/08 "Best practices and tools for web testing":../archive/2008.html#200808
-
+* 2008/08 "Best practices and tools for web testing":../archive/2008.html#200808
+* 2008/09 "TDD+RoR Lab Building a DotVoting System":../archive/2008.html#200809
