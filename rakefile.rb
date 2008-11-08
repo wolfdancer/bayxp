@@ -1,6 +1,7 @@
 =begin
 Rakefile used to generate BayXP website as well as uploading it. You will 
-need install 'BuildMaster' gem by typing 'gem install BuildMaster'
+need install 'BuildMaster' gem by typing 'gem install BuildMaster' and 'redcloth' gem
+by typing 'gem install RedCloth' and 'echoe' gem by typing 'gem install echoe'
 
 The default target will rebuild the website and upload the content
 

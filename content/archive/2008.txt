@@ -1,5 +1,13 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. First Joint Meeting: Silicon Valley Agile + BayXP + Cupertino Agile
+
+"Wednesday, October 22nd, 2008":http://www.meetup.com/silicon-valley-agile/calendar/8950820/
+
+This meeting will be run as an Open Space. Each person should come with a topic they are interested in discussing. I will collect the topics, we'll vote on them and set the agenda for the rest of the evening.
+
+Topic proposals can cover any subject related to Agile, but the best topics will relate to some real current problem or recent accomplishment. The scale of the proposed topics can vary. If we have a lot of small topics ("Any recommendations for testing my AJAX app?") then we'll cover more items than if we have larger ("How do you do your iteration planning?") or more controversial topics ("Is Scrum Evil?").
+
 h3. TDD+RoR Lab Building a DotVoting System <a name="200809">&nbsp;</a>
 
 September 24th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
