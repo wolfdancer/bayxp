@@ -8,6 +8,17 @@ This meeting will be run as an Open Space. Each person should come with a topic 
 
 Topic proposals can cover any subject related to Agile, but the best topics will relate to some real current problem or recent accomplishment. The scale of the proposed topics can vary. If we have a lot of small topics ("Any recommendations for testing my AJAX app?") then we'll cover more items than if we have larger ("How do you do your iteration planning?") or more controversial topics ("Is Scrum Evil?").
 
+Meeting Notes:
+* Scale matters: transitioning a large group requires significantly more planning & work than just doing one team.
+* Related: remember The Law of Raspberry Jam (the wider you spread it the thinner it gets)
+* It can take a lot of work to make sure a team self-organizes the right way
+* The psychology of change is important
+
+One of the books that came up: Cialdini's book on Influence which you can get in one of two flavors:
+* "http://www.amazon.com/Influence-Psychology-Persuasion-Business-Essentials/dp/006124189":http://www.amazon.com/Influence-Psychology-Persuasion-Business-Essentials/dp/006124189
+* "http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996/":http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996/
+
+
 h3. TDD+RoR Lab Building a DotVoting System <a name="200809">&nbsp;</a>
 
 September 24th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
