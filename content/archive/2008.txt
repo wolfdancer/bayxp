@@ -1,5 +1,23 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. Practitioner Discussion (SV Agile + BayXP + Cupertino Agile)
+
+"Wednesday, November 19th, 2008":http://www.meetup.com/silicon-valley-agile/calendar/9016654/
+
+Official topics:
+* What metrics can you use outside consumption to show things getting better (assume goodwill, no gaming)
+* Finally! a post-adoption success story
+* Can you really do agile with long feedback times?
+
+Aha moments from the group:
+* When people say they're doing agile you need to clarify which agile: Project management agile or developer practice agile?
+* Unexpected downsides in tracking "partial velocity", partially done work
+* When transitioning to agile the right metrics can help developers coming from ground zero
+* The idea of custom fit agile, of being as agile as you can for the circumstances (ala Crystal)
+* Teams will lie? Really? That's not something I've seen
+* Bugs escaping an iteration is much more of a lagging indicated than expected
+* The struggle to communicate "across the chasm" is even more pervasive than expected
+
 h3. First Joint Meeting: Silicon Valley Agile + BayXP + Cupertino Agile
 
 "Wednesday, October 22nd, 2008":http://www.meetup.com/silicon-valley-agile/calendar/8950820/
