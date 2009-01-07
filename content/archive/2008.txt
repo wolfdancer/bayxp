@@ -2,6 +2,31 @@ For meetings in previous years, see "all meetings":all.html
 
 h3. Practitioner Discussion (SV Agile + BayXP + Cupertino Agile)
 
+"Wednesday, December 17th, 2008":http://www.meetup.com/silicon-valley-agile/calendar/9271745/
+
+Official topics:
+* BayAPLN meetings in the South Bay?
+* Lost points problem. (Stories started but not completed in an iteration.)
+* How do you grow agile with management buy-in but without additional budget?
+* Moving from automation functional tests to unit tests
+
+Aha moments from the group:
+* Velocity is about prediction not score.
+* "The slippery slope to Selenium"
+* We might miss the boat on adopting agile.
+* "Lost points" can be an incentive to finish stories in the iteration.
+* Agile propaganda makes it hard to convince others to suspend their disbelief. We have to rely on assertions without the evidence of our direct experience.
+* Not just "velocity" that is misnamed it is "points".
+* Maybe I don't have a problem.
+* Iteration boundary is artificial. Maybe it doesn't matter?
+* Action matters more than logic. If you finish a story go help someone else.
+* Fast test vs slow test
+* Need to be brave enough to go all the way
+* Scott Adams is right: We are just moist robots in some ways
+* Invite a guest observer as a way to make sure you following through on what you said you'd do.
+
+h3. Practitioner Discussion (SV Agile + BayXP + Cupertino Agile)
+
 "Wednesday, November 19th, 2008":http://www.meetup.com/silicon-valley-agile/calendar/9016654/
 
 Official topics:
