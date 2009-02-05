@@ -1,0 +1,26 @@
+For meetings in previous years, see "all meetings":all.html
+
+h3. Theme Discussion: There's An Idea I'd Like to Try (SV Agile + BayXP)
+
+"Wednesday, January 21st, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9468994/
+
+Discussion topics:
+
+* "I'd like to try having the team work on just one feature at a time. No iterations, just a single feature from start to finish, rinse & repeat."
+* "I'd like to try having 'automated monkey testing', a tool that would explore the application with random input to find problems."
+* "I'd like to try having personas (from Goal Oriented Design) that could plug into automated acceptance test, so you could test different paths to the same behavior."
+* "I'd like to try starting from a photoshop mockup and then code through the application reaching the data layer last. This is backwards from my usual approach."
+
+Aha Moments:
+
+* Corey: We're not doing enough user persona modeling.
+* Doug: I had never considered persona based testing before.
+* Tye: It was new to think of a hierarchy of importance that goes Interaction > Domain > Data Layer.
+* Kevin: It is shocking how often we think of the role of QA as being destructive. (About breaking things rather than confirming that behavior works.)
+* Mark: Get one thing done before moving on. (But why is it that some of us want it? It feels like nobody else does...)
+* Dave: I need exercises for working outside my comfort zone, for removing scar tissue. Without that I'm missing opportunities to improve.
+* Mark: Why is waterfall so easy to describe while describing agile so hard? (This will be the theme for next month's meetup!)
+* Jeff: People don't like to do what they're bad at, they avoid it. They'd rather do what they're good at. (A duh and aha at the same time.)
+* Kevin: Don't make me do stuff I'm not good at it.
+* Phillippe: Automated monkey testing after a good quick smoke test could be useful.
+* Phillippe: Need focus in an iteration rather than a random collection of stories.
