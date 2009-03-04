@@ -1,17 +1,46 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. What is the Agile Core? Practices and/or Values
+
+"Wednesday, February 25th, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9678329/
+
+h4. Discussion topic:
+
+At the last meeting there was a questions: why is waterfall so easy to describe, but it is so hard to describe Agile?
+
+This is a problem because things that are easy to describe spread faster and broader than things that are hard to describe.
+
+So is there a core to Agile that is easy to describe?
+
+Are there some practices that are simply non-negotiable?
+
+How would you describe Agile to someone who had never heard of it? How would you describe it to a skeptic?
+
+If talking through these questions around the table sounds like fun, come on down and join us.
+
+h4. Aha Moments:
+
+* I might have to change my organization
+* It's not a unified answer (like an elephant)
+* Hmm... I had four principles but turned out that I couldn't remember the one about value
+* There is no core of agile that is easy to describe
+* All the answers are right but all different.  So maybe there is something fundamental that it is not possible to describe. 
+* Trust keeps coming up.  I think I need to do a lot of deep thinking about how to gain trust
+* Both core and non-negotiable are highly contextual and depends on what you don't have
+* You can't go very fast unless you are disciplined.
+
 h3. Theme Discussion: There's An Idea I'd Like to Try (SV Agile + BayXP)
 
 "Wednesday, January 21st, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9468994/
 
-Discussion topics:
+h4. Discussion topics:
 
 * "I'd like to try having the team work on just one feature at a time. No iterations, just a single feature from start to finish, rinse & repeat."
 * "I'd like to try having 'automated monkey testing', a tool that would explore the application with random input to find problems."
 * "I'd like to try having personas (from Goal Oriented Design) that could plug into automated acceptance test, so you could test different paths to the same behavior."
 * "I'd like to try starting from a photoshop mockup and then code through the application reaching the data layer last. This is backwards from my usual approach."
 
-Aha Moments:
+h4. Aha Moments:
 
 * Corey: We're not doing enough user persona modeling.
 * Doug: I had never considered persona based testing before.
