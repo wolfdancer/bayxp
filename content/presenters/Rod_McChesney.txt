@@ -3,11 +3,12 @@ Rod McChesney has been developing software professionally since
 Sun Microsystems (including SunSoft and JavaSoft), NOCPulse, and
 Openwave.  He's currently at at Postini (soon to be a Google
 subsidiary) working as the technical lead for the web applications
-group.<br/>
+group.
+
 At NOCpulse he worked on a SaaS system monitoring product that was
 developed with a home-rolled agile approach, delivering updates every
 three to four weeks. Having seen how well this can work in practice,
 he's tried to bring the ideas to teams at other companies, with
 varying success. The Postini web applications team has been using its
 own agile approach for about a year, and using XPlanner for about the
-last six months.</p>
+last six months.
