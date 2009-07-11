@@ -19,6 +19,9 @@ h1. Sponsor Roll
 The following are the BayXP sponsors, ordered by the most recent activities.
 
 table{border:1px solid black}.
+|*Name*|"Agile Institute":http://agileinstitute.com/ July 2009|
+|^.*Description*|Provided food for the meeting, raffle on several agile books|
+{background:#ddd}.|\2.<hr/>|
 |*Name*|"Mike Cohn":http://www.mountaingoatsoftware.com September 2008|
 |^.*Description*|Provided one free pass for each of the classes in San Jose ("details here":http://www.mountaingoatsoftware.com/san-jose), and three copies each of the following books: "Agile Estimating and Planning", "User Stories Applied"|
 {background:#ddd}.|\2.<hr/>|

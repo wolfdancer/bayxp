@@ -1,5 +1,19 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. BayXP/SV Agile event planning
+
+"Wednesday, March 25th, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9960809/
+
+We've been enjoying these monthly discussions so much we thought it would be worth trying something a little larger in scale. This meeting will be to start the planning a larger event so please attend if you're interested in helping to organize the event. Some of the decisions to be made:
+
+* Agenda: What do we want to talk about? Fix a theme or pot-luck?
+* Audience: open to public? invite only? require people to apply to attend?
+* Format: lectures? workshops? open space?
+* Duration/timing: 1 day? 2-day? Mid-week vs weekend?
+* Cost: charge admission? get sponsorship?
+
+Be the change you want to see in the world... starting with the event you'd like to attend.
+
 h3. What is the Agile Core? Practices and/or Values
 
 "Wednesday, February 25th, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9678329/
