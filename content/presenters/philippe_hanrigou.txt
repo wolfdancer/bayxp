@@ -1,6 +1,6 @@
 h1. Philippe Hanrigou
 
-"Philippe Hanrigou":http://ph7spot.com/ has over ten years of experience developing enterprise software and web applications. As a software engineer and "ThoughtWorks":http://thoughtworks.com consultant, he focuses on designing enterprise software ¡ª understanding what makes a good design and implementing practices that encourage it. For the last 2 years he has enthusiastically embraced Ruby and used it to deliver large enterprise systems.
+"Philippe Hanrigou":http://ph7spot.com/ has over ten years of experience developing enterprise software and web applications. As a software engineer and "ThoughtWorks":http://thoughtworks.com consultant, he focuses on designing enterprise software, understanding what makes a good design and implementing practices that encourage it. For the last 2 years he has enthusiastically embraced Ruby and used it to deliver large enterprise systems.
 
 Philippe is the author of "Troubleshooting Ruby Processes":http://ph7spot.com/publications/troubleshooting_ruby_processes, an Addison-Wesley Ruby Professional Series shortcut, that introduces key system diagnostic tools in the context of Ruby development. Philippe is also the principal developer and author of "Selenium Grid":http://selenium-grid.openqa.org a tool that transparently distribute your web testing infrastructure so that you can run Selenium tests in parallel.
 

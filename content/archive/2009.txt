@@ -1,5 +1,11 @@
 For meetings in previous years, see "all meetings":all.html
 
+h3. The Value of Refactoring on an Agile Team
+
+"Tuesday, July 14th, 2009":http://www.meetup.com/silicon-valley-agile/calendar/10743720/
+
+Refactoring is often viewed as a technique to clean up existing messy code. If that were always true, then Agile projects would require up-front design, because teams rarely get around to those "big refactorings," and rarely will a Scrum PO or XP Customer buy (prioritize) a "refactoring story." In truth, Agile processes require design to emerge. Rob will describe what it means to refactor clean, well-tested code. He will also demonstrate the actual business value of refactoring, and suggest ways to make sure refactoring and Emergent Design are given the necessary time to flourish.
+
 h3. BayXP/SV Agile event planning
 
 "Wednesday, March 25th, 2009":http://www.meetup.com/silicon-valley-agile/calendar/9960809/

@@ -62,7 +62,7 @@ One of the books that came up: Cialdini's book on Influence which you can get in
 * "http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996/":http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996/
 
 
-h3. TDD+RoR Lab Building a DotVoting System <a name="200809">&nbsp;</a>
+h3. TDD+RoR Lab Building a DotVoting System <a name="200809">.</a>
 
 September 24th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
 
@@ -79,7 +79,7 @@ You should have the following program installed on your computer:
     * "Git":http://git.or.cz/
 
 
-h3. Best practices and tools for web testing <a name="200808">&nbsp;</a>
+h3. Best practices and tools for web testing <a name="200808">.</a>
 
 August 27th, 2008 by "Philippe Hanrigou":../presenters/philippe_hanrigou.html
 
@@ -98,7 +98,7 @@ I will discuss how to address these issues by leveraging tools such as Selenium 
 * Keeping the tests razor sharp.
 
 
-h3. Agile approach in geographically distributed projects <a name="200807">&nbsp;</a>
+h3. Agile approach in geographically distributed projects <a name="200807">.</a>
 
 July 30th, 2008 by "Dmytry Mykhaylov":../presenters/dmytry_mykhaylov.html
 
