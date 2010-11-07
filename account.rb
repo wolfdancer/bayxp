@@ -1,3 +1,3 @@
 # This is the account used for the FTP upload
 USERNAME='bayxp'
-PASSWORD='assertEquals1'
+PASSWORD='@gilew0rks'
